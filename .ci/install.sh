@@ -22,3 +22,5 @@ fi
 pip install conan_package_tools
 pip install conan
 conan user
+conan remote add fbergmann "https://api.bintray.com/conan/fbergmann/conan"
+

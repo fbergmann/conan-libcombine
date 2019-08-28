@@ -6,6 +6,7 @@ env:
      - CONAN_UPLOAD: "https://api.bintray.com/conan/fbergmann/conan"
      - CONAN_BUILD_POLICY: "missing"
      - CONAN_DOCKER_32_IMAGES: 1
+     - CONAN_UPLOAD_DEPENDENCIES: "all"
 
 linux: &linux
    os: linux

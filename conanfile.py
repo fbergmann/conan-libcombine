@@ -7,12 +7,12 @@ class LibCombineConan(ConanFile):
 
     name = "libcombine"
     version = "0.2.3"
-    url = "http://github.com/fbergmann/conan-libsedml"
+    url = "http://github.com/fbergmann/conan-libcombine"
     homepage = "https://github.com/sbmlteam/libCombine/"
     author = "Frank Bergmann"
     license = "BSD"
 
-    description = ("This project makes use of libSBML XML layer as well as code generation as starting point to produce a library for reading and writing of SED-ML models.")
+    description = ("This project makes use of libSBML XML layer as well as code generation as starting point to produce a library for reading and writing of Combine Archives.")
 
     settings = "os", "arch", "compiler", "build_type"
 
