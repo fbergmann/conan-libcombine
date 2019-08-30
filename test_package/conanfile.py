@@ -1,7 +1,7 @@
 from conans import ConanFile, CMake
 import os
 
-class LibSedmlTestConan(ConanFile):
+class LibCombineTestConan(ConanFile):
     settings = "os", "compiler", "arch", "build_type"
     generators = "cmake"
 
